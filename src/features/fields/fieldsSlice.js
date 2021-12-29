@@ -46,7 +46,7 @@ export const fieldsSlice = createSlice({
       state.hoveredFields = current(state.grid).map((obj) => {
         return obj.filter((o) => o.hovered === true);
       });
-      console.log(state.hoveredFields);
+      //   console.log(state.hoveredFields);
     },
   },
   extraReducers: {

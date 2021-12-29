@@ -24,8 +24,8 @@ const Field = () => {
     dispatch(changeHovered(arrIndex, objIndex));
   };
 
-  const filterHoveredHandler = (arrIndex, objIndex) => {
-    dispatch(createHoveredFields(arrIndex, objIndex));
+  const filterHoveredHandler = () => {
+    dispatch(createHoveredFields());
   };
 
   const gridArr = [];
@@ -81,7 +81,7 @@ const Field = () => {
                       }
                       onMouseEnter={() => {
                         toggleHoverHandler({ arrIndex: index, objIndex: c.id });
-                        filterHoveredHandler({ arrIndex: index });
+                        filterHoveredHandler();
                       }}
                       key={Math.random()}
                     ></th>
