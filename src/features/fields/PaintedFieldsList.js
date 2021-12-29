@@ -13,8 +13,8 @@ const PaintedFieldsList = () => {
               field.length > 0 &&
               field.map((f) => (
                 <div className="item" key={Math.random()}>
-                  <span>row</span> {f.row} {""}
-                  <span>col</span> {f.col}
+                  <span>row</span> {f.row + 1} {""}
+                  <span>col</span> {f.col + 1}
                 </div>
               ))
           )}
