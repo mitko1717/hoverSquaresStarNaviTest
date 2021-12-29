@@ -2,38 +2,73 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-float infinite 3s ease-in-out;
-  }
-}
-
-.App-header {
+.App {
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
+  /* align-items: center; */
   justify-content: center;
   font-size: calc(10px + 2vmin);
+  background: rgb(220, 220, 222);
 }
 
-.App-link {
-  color: rgb(112, 76, 182);
+.field {
+  margin: 1rem 2.1rem 0 0;
+  /* width: 40rem; */
+  text-align: center;
 }
 
-@keyframes App-logo-float {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(10px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
+th {
+  width: 2rem;
+  height: 2rem;
+  font-size: 0.5rem;
+  background: white;
+  /* border: 1px solid black; */
+}
+
+select {
+  width: 15rem;
+  height: 2rem;
+  font-size: 1.1rem;
+  text-align: center;
+  /* border: none; */
+  outline: none;
+  margin-bottom: 1rem;
+}
+
+button {
+  width: 5rem;
+  height: 2rem;
+  font-size: 1.1rem;
+  text-align: center;
+  border: none;
+  outline: none;
+  margin-left: 0.5rem;
+  background: darkcyan;
+  color: white;
+}
+.paintedFieldsList {
+  max-height: 95vh;
+  width: 35rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.paintedFieldsList h3 {
+  margin: 1.1rem 0 0;
+  color: darkcyan;
+  text-transform: uppercase;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 1rem 0 0;
+}
+
+.item {
+  font-size: 0.88rem;
+  margin: 0.1rem 0;
+  width: 19%;
 }
