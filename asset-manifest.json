@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/hoverSquaresStarNaviTest/static/css/main.f60110b9.css",
-    "main.js": "/hoverSquaresStarNaviTest/static/js/main.ff0aafae.js",
+    "main.js": "/hoverSquaresStarNaviTest/static/js/main.3e0ab223.js",
     "index.html": "/hoverSquaresStarNaviTest/index.html",
     "main.f60110b9.css.map": "/hoverSquaresStarNaviTest/static/css/main.f60110b9.css.map",
-    "main.ff0aafae.js.map": "/hoverSquaresStarNaviTest/static/js/main.ff0aafae.js.map"
+    "main.3e0ab223.js.map": "/hoverSquaresStarNaviTest/static/js/main.3e0ab223.js.map"
   },
   "entrypoints": [
     "static/css/main.f60110b9.css",
-    "static/js/main.ff0aafae.js"
+    "static/js/main.3e0ab223.js"
   ]
 }
